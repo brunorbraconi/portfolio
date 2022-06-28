@@ -39,7 +39,7 @@ const About = ({endpoint}) => {
     context: GetServerSidePropsContext
  ) => {
    const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
-   
+   const data = await res.json();
     return { props: { endpoint: process.env.VERCEL_URL } }
  }
 
