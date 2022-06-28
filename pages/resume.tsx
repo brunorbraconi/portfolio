@@ -17,7 +17,7 @@ export const resume = () => {
           <h5 className='my-2 text-xl font-bold'>
             Digital House 
             <p className='font-semibold'>Full Stack Web Developer (2021-2022)</p>
-            <p className='my-3'>I am currently studying C#, and others code languages</p>
+            <p className='my-3'>Currently enhancing my skills in C# and others code languages such as NextJS, Typescript, etc.</p>
           </h5>
         </div>
       </div>
@@ -25,9 +25,10 @@ export const resume = () => {
         <h5 className='my-3 font-bold text-2x1'>Experience</h5>
         <div>
           <h5 className='my-2 text-xl font-bold'>
-            Freelance projects 
-            <p className='font-semibold'>SPA Developer (2022 - On)</p>
-            <p className='my-3'>I currently work as a freelance but i would like to be hired by a company</p>
+            -Freelance projects 
+            <p className='font-semibold'>-SPA Developer (2022 - On)</p>
+            <p className='my-3'>As of know, I'm currently working as a freelancer developing different projects but I would most definitely love to be hired by a company doing what I love.
+</p>
           </h5>
         </div>
       </div>

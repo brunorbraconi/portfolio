@@ -72,6 +72,16 @@ export const languages: ISkill[] = [
         level: '50%',
         Icon:BsCircleFill,
     },
+    {
+        name:'NextJS',
+        level: '70%',
+        Icon:BsCircleFill,
+    },
+    {
+        name:'TypeScript',
+        level: '70%',
+        Icon:BsCircleFill,
+    },
 ]
 
 export const tools: ISkill[] = [
@@ -90,7 +100,7 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
     {
         name: "La Guarida del dragon",
-        description: 'This is a funcionally E-Commerce',
+        description: 'This is a functionally E-Commerce',
         image_path: "/images/laguarida.jpg",
         deployed_url: "https://la-guarida-del-dragon.herokuapp.com/",
         github_url: "https://github.com/AgustinPotes/grupo_5_juegosDeRol",
