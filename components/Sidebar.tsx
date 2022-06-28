@@ -28,8 +28,8 @@ const changeTheme = () => {
            Braconi
        </h3>
         <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'>Full Stack Web Developer</p>
-        <a className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200' href=''
-        download='name'>
+        <a className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200' href='/assets/Brunoresume.pdf'
+        download='Brunoresume.pdf'>
             <GiTie className='w-6 h-6'/> Download Resume
         </a>
         {/* //social icon */}
