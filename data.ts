@@ -99,6 +99,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
     {
+        id:1,
         name: "La Guarida del dragon",
         description: 'This is a functionally E-Commerce',
         image_path: "/images/laguarida.jpg",
@@ -108,6 +109,7 @@ export const projects: IProject[] = [
         key_techs:['Javascript ', 'HTML ', 'CSS ', 'Express ', 'NodeJS']
     },
     {
+        id:2,
         name: "Dashboard La Guarida",
         description: 'Dashboard of the E-Commerce',
         image_path: "/images/laguaridadashboard.png",
