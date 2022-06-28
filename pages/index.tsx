@@ -22,7 +22,7 @@ const About = ({endpoint}) => {
       initial='initial' 
       animate='animate'>
         {
-          services.map(service => (
+          services.map((service) => (
           <motion.div        
           variants={fadeInUp}
           className='bg-gray-300 rounded-lg lg:col-span-1 dark:bg-dark-200'key={service.title}>
