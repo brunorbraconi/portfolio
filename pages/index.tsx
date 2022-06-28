@@ -11,7 +11,7 @@ import {services}  from '../data'
 import {motion} from 'framer-motion'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 const About = ({endpoint}) => {
-  console.log(endpoint)
+  console.log(endpoint);
   return (
     <motion.div className='flex flex-col flex-grow px-6 pt-1' variants={routeAnimation} initial='initial' animate='animate' exit='exit'>
      <h5 className='my-3 font-medium'>I' am a Junior Full Stack Web Developer with 1+ year of experience in Web Development. I'm a former Dota 2 competitive player and I'm also incredibly passionate about E-Sports.
