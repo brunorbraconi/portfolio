@@ -16,7 +16,7 @@ const changeTheme = () => {
 
   return (
     <div>
-       <Image src='/assets/brunito.jpg'
+       <Image src='/assets/brunito.png'
        alt='user avatar'
        className='mx-auto border rounded-full'
        height='128px'
