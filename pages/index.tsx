@@ -5,13 +5,15 @@ import {
   GetStaticPropsContext,
   NextPage,
 } from "next";
-import React from 'react'
+import React, { useEffect } from 'react'
 import ServiceCard from '../components/ServiceCard'
 import {services}  from '../data'
 import {motion} from 'framer-motion'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 const About = ({endpoint}) => {
-  console.log(endpoint);
+  useEffect(() => {
+    document.title = "Bruno Braconi"
+ }, []);
   return (
     <motion.div className='flex flex-col flex-grow px-6 pt-1' variants={routeAnimation} initial='initial' animate='animate' exit='exit'>
      <h5 className='my-3 font-medium'>I'am a Junior Full Stack Web Developer with 1+ year of experience in Web Development. I'm a former Dota 2 competitive player and I'm also incredibly passionate about E-Sports.
@@ -35,13 +37,13 @@ const About = ({endpoint}) => {
   )
 }
 
- export const getServerSideProps: GetServerSideProps = async (
-    context: GetServerSidePropsContext
- ) => {
-  //  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
-  //  const data = await res.json();
-    return { props: { endpoint: process.env.VERCEL_URL } }
- }
+export const getServerSideProps: GetServerSideProps = async (
+  context: GetServerSidePropsContext
+) => {
+//  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+//  const data = await res.json();
+  return { props: { endpoint: process.env.VERCEL_URL } }
+}
 
 //!called only during the build of the project
 //? make sure the server(localhost:3000)[this will receive the request during build] is running on a terminal during the build
