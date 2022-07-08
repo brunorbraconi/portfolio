@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Bar from '../components/Bar'
 import { languages, tools } from '../data'
 import {motion} from 'framer-motion'
 import { fadeInUp, routeAnimation } from '../animations'
 export const resume = () => {
+  useEffect(() => {
+    document.title = "Bruno Braconi"
+ }, ["Bruno Braconi"]);
   return (
     <motion.div className='px-6 py-2' variants={routeAnimation} initial='initial' animate='animate' exit='exit'>
      {/* education & exp  */}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ProjectCard from '../components/ProjectCard'
 import ProjectsNavbar from '../components/ProjectsNavbar'
 import { projects as projectsData } from '../data'
@@ -6,6 +6,10 @@ import { Category } from '../types'
 import { motion } from 'framer-motion'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 export const Projects = () => {
+  useEffect(() => {
+    document.title = "Bruno Braconi"
+ }, ["Bruno Braconi"]);
+  
   const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState("All");
   const [showDetail, setShowDetail] = useState<number | null>(null);
