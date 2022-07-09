@@ -106,7 +106,7 @@ export const projects: IProject[] = [
         deployed_url: "https://la-guarida-del-dragon.herokuapp.com/",
         github_url: "https://github.com/AgustinPotes/grupo_5_juegosDeRol",
         category:['Express', 'Javascript', 'Node', 'HTML', 'CSS'],
-        key_techs:['Javascript ', 'HTML ', 'CSS ', 'Express ', 'NodeJS']
+        key_techs:['Javascript', 'HTML ', 'CSS ', 'Express ', 'NodeJS']
     },
     {
         id:2,
@@ -115,8 +115,8 @@ export const projects: IProject[] = [
         image_path: "/images/laguaridadashboard.png",
         deployed_url: "https://dashboardlaguarida.netlify.app/",
         github_url: "https://github.com/brunorbraconi/dashboardproyecto",
-        category:['React', 'Node'],
-        key_techs:['React ', 'NodeJS']
+        category:['React', 'Node', 'Javascript'],
+        key_techs:['React ', 'NodeJS', 'Javascript']
     },
     {
         id:3,
@@ -125,7 +125,7 @@ export const projects: IProject[] = [
         image_path: "/images/mercadoliebre.png",
         deployed_url: "https://mercadoliebrebrunito.herokuapp.com/",
         github_url: "https://github.com/brunorbraconi/mercadoliebre",
-        category:['Javascript', 'Node', 'HTML', 'CSS'],
-        key_techs:['HTML', 'CSS', 'Javascript']
+        category:['HTML', 'CSS'],
+        key_techs:['HTML', 'CSS']
     },    
 ];
