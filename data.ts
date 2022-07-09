@@ -105,7 +105,7 @@ export const projects: IProject[] = [
         image_path: "/images/laguarida.jpg",
         deployed_url: "https://la-guarida-del-dragon.herokuapp.com/",
         github_url: "https://github.com/AgustinPotes/grupo_5_juegosDeRol",
-        category:['Express', 'Javascript', 'Node'],
+        category:['Express', 'Javascript', 'Node', 'HTML', 'CSS'],
         key_techs:['Javascript ', 'HTML ', 'CSS ', 'Express ', 'NodeJS']
     },
     {
