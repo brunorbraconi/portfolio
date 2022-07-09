@@ -117,5 +117,15 @@ export const projects: IProject[] = [
         github_url: "https://github.com/brunorbraconi/dashboardproyecto",
         category:['React', 'Node'],
         key_techs:['React ', 'NodeJS']
+    },
+    {
+        id:3,
+        name: "Mercadoliebre",
+        description: 'First Challengue Front-end at Digital-House',
+        image_path: "/images/mercadoliebre.png",
+        deployed_url: "https://mercadoliebrebrunito.herokuapp.com/",
+        github_url: "https://github.com/brunorbraconi/mercadoliebre",
+        category:['Javascript', 'Node', 'HTML', 'CSS'],
+        key_techs:['HTML', 'CSS', 'Javascript']
     },    
 ];

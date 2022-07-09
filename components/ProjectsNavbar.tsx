@@ -22,6 +22,8 @@ const ProjectsNavbar = (props) => {
 <NavItem value="Javascript"{...props} />
 <NavItem value="Node" {...props}/>
 <NavItem value="Express" {...props}/>
+<NavItem value="HTML" {...props}/>
+<NavItem value="CSS" {...props}/>
     </div>
   )
 }
