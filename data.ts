@@ -125,7 +125,7 @@ export const projects: IProject[] = [
         image_path: "/images/mercadoliebre.png",
         deployed_url: "https://mercadoliebrebrunito.herokuapp.com/",
         github_url: "https://github.com/brunorbraconi/mercadoliebre",
-        category:['HTML', 'CSS'],
+        category:['Node', 'HTML', 'CSS'],
         key_techs:['HTML', 'CSS']
     },    
 ];
