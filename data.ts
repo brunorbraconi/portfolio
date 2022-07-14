@@ -116,7 +116,7 @@ export const projects: IProject[] = [
         deployed_url: "https://dashboardlaguarida.netlify.app/",
         github_url: "https://github.com/brunorbraconi/dashboardproyecto",
         category:['React', 'Node', 'Javascript'],
-        key_techs:['React ', 'NodeJS', 'Javascript']
+        key_techs:['React', 'NodeJS', 'Javascript']
     },
     {
         id:3,
@@ -127,5 +127,15 @@ export const projects: IProject[] = [
         github_url: "https://github.com/brunorbraconi/mercadoliebre",
         category:['Node', 'HTML', 'CSS'],
         key_techs:['HTML', 'CSS']
+    },
+    {
+        id:4,
+        name: "Expense-chart",
+        description: 'Fronted-Mentor Challengue',
+        image_path: "/images/expense-chart.png",
+        deployed_url: "https://expense-chart-tau.vercel.app/",
+        github_url: "https://expense-chart-tau.vercel.app/",
+        category:['React', 'Node', 'Javascript'],
+        key_techs:['NextJS', 'NodeJS', 'Javascript, SASS']
     },    
 ];
