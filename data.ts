@@ -136,6 +136,6 @@ export const projects: IProject[] = [
         deployed_url: "https://expense-chart-tau.vercel.app/",
         github_url: "https://expense-chart-tau.vercel.app/",
         category:['React', 'Node', 'Javascript'],
-        key_techs:['NextJS', 'NodeJS', 'Javascript, SASS']
+        key_techs:['NextJS', 'NodeJS', 'Javascript','SASS']
     },    
 ];
