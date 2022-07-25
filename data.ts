@@ -69,7 +69,7 @@ export const languages: ISkill[] = [
     },
     {
         name:'SQL',
-        level: '50%',
+        level: '60%',
         Icon:BsCircleFill,
     },
     {
@@ -111,7 +111,7 @@ export const projects: IProject[] = [
     {
         id:2,
         name: "Dashboard La Guarida",
-        description: 'Dashboard of the E-Commerce',
+        description: 'Dashboard of the E-Commerce La Guarida del dragon',
         image_path: "/images/laguaridadashboard.png",
         deployed_url: "https://dashboardlaguarida.netlify.app/",
         github_url: "https://github.com/brunorbraconi/dashboardproyecto",
@@ -121,7 +121,7 @@ export const projects: IProject[] = [
     {
         id:3,
         name: "Mercadoliebre",
-        description: 'First Challengue Front-end at Digital-House',
+        description: 'First Challenge Front-end at Digital-House',
         image_path: "/images/mercadoliebre.png",
         deployed_url: "https://mercadoliebrebrunito.herokuapp.com/",
         github_url: "https://github.com/brunorbraconi/mercadoliebre",
@@ -131,7 +131,7 @@ export const projects: IProject[] = [
     {
         id:4,
         name: "Expense-chart",
-        description: 'Fronted-Mentor Challengue',
+        description: 'Fronted-Mentor Challenge',
         image_path: "/images/expense-chart.png",
         deployed_url: "https://expense-chart-tau.vercel.app/",
         github_url: "https://expense-chart-tau.vercel.app/",
