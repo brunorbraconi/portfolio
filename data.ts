@@ -138,4 +138,14 @@ export const projects: IProject[] = [
         category:['React', 'Node', 'Javascript'],
         key_techs:['NextJS', 'NodeJS', 'Javascript','SASS']
     },    
+    {
+        id:5,
+        name: "Amcham-Onboarding",
+        description: 'Onboarding for Amcham',
+        image_path: "/images/amcham.png",
+        deployed_url: "https://main.d1us4gwltwq9tm.amplifyapp.com/",
+        github_url: "https://github.com/tdamchamar/frontend-onboarding",
+        category:['React'],
+        key_techs:['CSS', 'React']
+    },
 ];
