@@ -143,7 +143,7 @@ export const projects: IProject[] = [
         name: "Amcham-Onboarding",
         description: 'Onboarding for Amcham',
         image_path: "/images/amcham.png",
-        deployed_url: "https://main.d1us4gwltwq9tm.amplifyapp.com/",
+        deployed_url: "https://www.onboarding.amcham.com.ar/",
         github_url: "https://github.com/tdamchamar/frontend-onboarding",
         category:['React'],
         key_techs:['CSS', 'React']
