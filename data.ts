@@ -150,7 +150,7 @@ export const projects: IProject[] = [
     name: 'Amcham-Eventos',
     description: 'Events management for Amcham',
     image_path: '/images/amchameventos.png',
-    deployed_url: 'https://main.d1wwl4zdwfq5ur.amplifyapp.com/',
+    deployed_url: 'https://www.eventos.dev.amcham.com.ar/',
     github_url: 'https://github.com/tdamchamar/frontend-eventos',
     category: ['React', 'CSS', 'Javascript'],
     key_techs: ['React', 'CSS', 'Javascript'],
