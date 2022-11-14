@@ -29,7 +29,7 @@ export const resume = () => {
           <h5 className='my-2 text-xl font-bold'>
             -Freelance projects</h5>
             <p className='font-semibold'>-SPA Developer (2022 - On)</p>
-            <p className='my-3'>As of know, I'm currently working as a freelancer developing different projects but I would most definitely love to be hired by a company doing what I love.</p>
+            <p className='my-3'>As of know, I'm currently working as a freelancer developing and giving support to differents projects but I would most definitely love to be hired by a company doing what I love.</p>
         </div>
       </motion.div>
      </div>
