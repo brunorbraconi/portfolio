@@ -16,7 +16,7 @@ const About = ({endpoint}) => {
  }, ["Bruno Braconi"]);
   return (
     <motion.div className='flex flex-col flex-grow px-6 pt-1' variants={routeAnimation} initial='initial' animate='animate' exit='exit'>
-     <h5 className='my-3 font-medium'>I'am a Junior Full Stack Web Developer with 1+ year of experience in Web Development. I'm a former Dota 2 competitive player and I'm also incredibly passionate about E-Sports.
+     <h5 className='my-3 font-medium'>I'am a Junior Full Stack Web Developer with 1+ year of experience in Web Development. Currently working with OpenLayers and GEOJSON technologies.
      </h5>
      <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-200' style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
       <h6 className='my-3 text-xl font-bold tracking-wide text-white'>What I Offer</h6>
